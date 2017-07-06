@@ -20,7 +20,7 @@ channel will be used.
 ## Shims and Command Line Flags
 
 This buildpack installs shims that always add `--headless`, `--disable-gpu`, 
-`--no-sandbox`, and `--remote-debugging-port=9222` to any `google-chrome` 
+and `--no-sandbox` to any `google-chrome`
 command as you'll have trouble running Chrome on a Heroku dyno otherwise.
 
 You'll have two of these shims on your path: `google-chrome` and
